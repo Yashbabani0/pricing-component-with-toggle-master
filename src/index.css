@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+  --very-Light-Grayish-Blue: hsl(240, 78%, 98%);
+  --light-Grayish-Blue: hsl(234, 14%, 74%);
+  --grayish-Blue: hsl(233, 13%, 49%);
+  --dark-Grayish-Blue: hsl(232, 13%, 33%);
+}
+.card-back-color {
+    background-image: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  }
+  
