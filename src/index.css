@@ -8,6 +8,25 @@
   --dark-Grayish-Blue: hsl(232, 13%, 33%);
 }
 .card-back-color {
-    background-image: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-  }
-  
+  background-image: linear-gradient(
+    to bottom,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+}
+p {
+  border-top: 2px solid var(--light-Grayish-Blue);
+  color: var(--very-Light-Grayish-Blue);
+  margin: 10px 30px;
+}
+p:nth-child(5) {
+  border-bottom: 2px solid var(--light-Grayish-Blue);
+}
+h5,
+h4,
+button {
+  color: var(--very-Light-Grayish-Blue);
+}
+button {
+  color: var(--grayish-Blue);
+}

@@ -5,10 +5,10 @@ import Cards from "./components/Cards";
 
 function App() {
   return (
-    <div className="w-full h-screen flex align-middle justify-center text-center relative">
+    <div className="w-full h-screen flex flex-col justify-center text-center relative">
       <Background />
       <Header />
-      <Cards heading="Basic" price="10$" storage="1" users="10" send="10" />
+      <Cards />
     </div>
   );
 }
