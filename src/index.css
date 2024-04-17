@@ -15,12 +15,8 @@
   );
 }
 p {
-  border-top: 2px solid var(--light-Grayish-Blue);
   color: var(--very-Light-Grayish-Blue);
   margin: 10px 30px;
-}
-p:nth-child(5) {
-  border-bottom: 2px solid var(--light-Grayish-Blue);
 }
 h5,
 h4,
