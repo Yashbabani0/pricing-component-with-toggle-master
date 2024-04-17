@@ -8,7 +8,6 @@ function App() {
     <div className="w-full h-screen flex flex-col justify-center text-center relative">
       <Background />
       <Header />
-      <Cards />
     </div>
   );
 }

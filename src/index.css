@@ -14,15 +14,22 @@
     hsl(237, 63%, 64%)
   );
 }
-p {
-  color: var(--very-Light-Grayish-Blue);
-  margin: 10px 30px;
+.card-back-color:hover {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
 }
 h5,
 h4,
+p,
 button {
   color: var(--very-Light-Grayish-Blue);
 }
 button {
   color: var(--grayish-Blue);
+}
+button:hover {
+  color: white;
 }
